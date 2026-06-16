@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profil Lengkap - [Nama Anda]</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        body {
+            background-color: #f0f4f8;
+            color: #333;
+            padding: 40px 20px;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        header h1 {
+            color: #0056b3;
+            font-size: 2.5rem;
+        }
+
+        /* Gaya Kotak Informasi (Section) */
+        .section-box {
+            background: #fff;
+            padding: 25px;
+            border-radius: 15px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+            margin-bottom: 20px;
+            border-left: 5px solid #0056b3; /* Aksen garis biru di kiri */
+            display: flex; 
+            align-items: flex-start; /* Sejajar dari atas */
+            justify-content: space-between; /* Memberi jarak antara teks dan peta */
+            gap: 20px; /* Jarak antara teks dan peta */
+            flex-wrap: wrap; /* Agar jika di layar HP, peta pindah ke bawah otomatis */
+        }
+    
+
+        .section-box h2 {
+            color: #0056b3;
+            margin-bottom: 10px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .badge-lulus {
+        background-color: #27ae60; /* Warna Hijau */
+        color: white;
+        padding: 4px 12px;
+        border-radius: 20px;
+        font-size: 0.8rem;
+        font-weight: bold;
+        vertical-align: middle;
+        margin-left: 10px;
+        display: inline-block;
+    }
+
+    /* Memastikan teks informasi sejajar rapi */
+    
+
+        .back-btn {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: #0056b3;
+            color: white;
+            text-decoration: none;
+            border-radius: 30px;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        .back-btn:hover {
+            background-color: #003d80;
+            transform: translateX(-5px);
+        }
+
+        /* List untuk Hobi agar rapi */
+        .hobi-list {
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+            list-style: none;
+            margin-top: 10px;
+        }
+
+        .hobi-item {
+            background: #e1ecf7;
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-size: 0.9rem;
+            color: #0056b3;
+            font-weight: bold;
+        }
+
+         .footer-copyright {
+    text-align: center;
+    padding: 25px 0; /* Sedikit lebih lebar agar lega */
+    background-color: #f1f1f1; 
+    color: #333;             /* Warna diganti ke lebih gelap agar jelas */
+    font-size: 1.1rem;       /* Ukuran standar dinaikkan (sebelumnya 0.9) */
+    border-top: 1px solid #ddd;
+    margin-top: 30px;
+    font-weight: 500;        /* Sedikit lebih tebal */
+}
+
+/* Responsif untuk HP */
+@media (max-width: 768px) {
+    .footer-copyright {
+        font-size: 1rem;     /* Di HP tidak terlalu kecil (sebelumnya 0.8) */
+        padding: 20px 15px;
+    }
+}
+    </style>
+</head>
+<body>
+<div class="container">
+    <header>
+        <h1>Pendidikan</h1>
+        <p>Mengenal lebih dekat perjalanan profesional dan pribadi saya.</p>
+    </header>
+
+<div class="section-box">
+    <h2>👩‍🎓 SD Negeri 1 Tanjunganom </h2>
+    <P class="badge-lulus">Lulus-2020</span></P>
+    <div class="maps-container"></div>
+</div>
+
+<div class="section-box">
+    <h2>👩‍🎓 SMP AN-NUUR PASALEMAN </h2>
+     <P class="badge-lulus">Lulus-2023</span></P>
+    <div class="maps-container"></div>
+</div>  
+
+<div class="section-box">
+    <h2>👩‍🎓 SMK NEGERI 4 KUNINGAN </h2>
+    <P class="badge-lulus">Lulus-2026</span></P>
+    <div class="maps-container"></div>
+</div>
+<div style="text-align: center;">
+            <a href="index.html" class="back-btn">← Kembali ke Halaman Utama</a>
+        </div>
+
+     <footer class="footer-copyright">
+    <p>&copy; 2026 Anra. All Rights Reserved.</p>
+</footer>
+</body>
+</html>
